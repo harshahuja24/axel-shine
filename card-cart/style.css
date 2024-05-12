@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Onest:wght@100..900&display=swap');
+
+body{
+    font-family: "Onest", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 10ox;
+
+}
+svg{
+    width: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+header .icon-cart{
+    position: relative;
+}
+header .icon-cart span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    right: -20px;
+}
+.listProduct .item img{
+    width: 90%;
+    /* filter: drop-shadow(0 50px 20px #000900); */
+}
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.listProduct .item{
+    background-color: #eeeee6;
+    padding: 20px;
+    border-radius: 20px;
+}
+.listProduct .item h2{
+    font-weight: 500;
+    font-size: large;
+}
+.listProduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+}
+.listProduct .item button{
+    background-color: #353432;
+    color: #eee;
+    padding: 6px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+}
+.space{
+    height: 75px;
+}
+/* .offcanvas-body .card{
+
+border: 2px solid black;
+display: flex;
+flex-direction: column;
+margin: 10px;
+}
+.offcanvas-body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.offcanvas-body button{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: black;
+}
+.offcanvas-body button:hover{
+    background-color: gold;
+    color: black;
+} */
+.offcanvas-body .card {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 30px;
+    padding: 10px; /* Add padding to create space */
+}
+
+/* .offcanvas-body {
+    height: 100vh;
+} */
+
+.offcanvas-body button {
+    height: 40px;
+    width: 300px;
+    z-index: 1;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: black;
+    margin-bottom: 10px;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.checkin-section{
+    height: 300px;
+    border: 2px solid red;
+}
+
+.offcanvas-body button:hover {
+    background-color: gold;
+    color: black;
+}
+.card-text{
+    text-align: start;
+}
+#product-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

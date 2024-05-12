@@ -1,0 +1,100 @@
+/* Using your website color scheme */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF3E6;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.available-services{
+    width: 50%;
+    height: 100vh;
+
+}
+.available-services h2{
+    text-align: center;
+    font-weight:bolder;
+    font-size: 50px;
+}
+#serviceList li{
+    font-size: 25px;
+    width: 100%;
+    margin: 25px;
+}
+.cart-section{
+    width: 360px;
+    height: fit-content;
+}
+.cart-section h2{
+    text-align: center;
+    font-weight:bolder;
+    font-size: 30px;
+
+}
+#paymentbutton{
+    text-align: left;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#paymentbutton i{
+    margin-left: 10px;
+}
+#clearCartBtn{
+    text-align: left;
+    font-size: large;
+    margin-bottom: 20px;
+}
+.available-services li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+}
+.cart-section li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: transparent;
+
+}
+.row .card{
+    border: 2px solid;
+    margin: 20px;
+}
+.card *{
+    display: flex;
+    flex-direction: column;
+}
+.row *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    text-align: center;
+}
+.pleasent-hover-green{
+    background-color: lightgreen;
+    transition: background-color 0.3s ease;
+}
+.pleasent-hover-green:hover{
+    background-color: lightgreen;
+    transition: background-color 0.3s ease;
+}
+.pleasent-hover-red{
+    background-color: lightcoral;
+    transition:background-color 0.3s ease;
+}
+.pleasent-hover-red:hover{
+    background-color: lightcoral;
+    transition:background-color 0.3s ease;
+}
